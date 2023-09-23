@@ -176,7 +176,7 @@ We can persist env vars into gitpod by storing them in Gitpod Secrets Storage.
 gp env HELLO='world'
 ```
 
-All future workspaces launched will set the env vars for all bash terminals opened in thoes workspaces.
+All future workspaces launched will set the env vars for all bash terminals opened in those workspaces.
 
 You can also set en vars in the `.gitpod.yml` but this can only contain non-senstive env vars.
 
