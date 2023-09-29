@@ -15,6 +15,3 @@ resource "aws_s3_bucket" "example" {
   bucket = random_string.bucket_name.result
 }
 
-output "random_bucket_name" {
-  value = random_string.bucket_name.result
-}
