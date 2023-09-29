@@ -1,10 +1,10 @@
 terraform {
-cloud {
-organization = "eapen"
-workspaces{
-  name="terra-house-1"
-}
-}
+# cloud {
+# organization = "eapen"
+# workspaces{
+#   name="terra-house-1"
+# }
+# }
 
 
   required_providers {
