@@ -50,7 +50,7 @@ variable "content_version" {
   }
 }
 
-variable "public_path" {
+variable "assets_path" {
   description = "The file path for the public directory"
   type        = string
 }
