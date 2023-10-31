@@ -1,11 +1,11 @@
 
 terraform {
-# cloud {
-# organization = "eapen"
-# workspaces{
-#   name="terra-house-1"
-# }
-# }
+cloud {
+organization = "eapen"
+workspaces{
+  name="terraform-cloud"
+}
+}
 }
 
 module "terrahouse_aws" {
